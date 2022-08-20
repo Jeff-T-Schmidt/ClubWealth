@@ -1,4 +1,4 @@
-import { Route, Routes, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Home from './components/Home';
 import Cats from './components/Cats';
@@ -11,11 +11,10 @@ function App() {
         <>
             <NavBar />
             <Routes>
-                <Route path="/" element={<Home />}>
-                    <Route exact path="starwars" element={<StarWars />} />
-                    <Route exact path="cats" element={<Cats />} />
-                    <Route exact path="covid" element={<Covid />} />
-                </Route>
+                <Route path="/" element={<Home />} />
+                    <Route path="/starwars" element={<StarWars />} />
+                    <Route path="/cats" element={<Cats />} />
+                    <Route path="/covid" element={<Covid />} />       
             </Routes>
         </>
     )

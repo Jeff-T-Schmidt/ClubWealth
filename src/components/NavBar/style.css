@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 100px;
+}
+
+button {
+    /* color: inherit; */
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+}
+
+.nav-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.starWars-btn {
+    background-color: #555;
+}
+
+.cat-btn {
+    background-color: #555;
+}
+
+.covid-btn {
+    background-color: #555;
+}
+
+ .nav-bar button:hover {
+    background-color: #777;
+} 

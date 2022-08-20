@@ -1,3 +1,10 @@
-h1 {
-    color: red;
+.card {
+    width: 20%;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
 }
