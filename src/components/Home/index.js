@@ -11,13 +11,13 @@ const Home = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='left-pic col s4'>
-                    <Link  exact='true' to='/starwars'><img class='image1' src={people} /></Link>
+                    <Link  exact='true' to='/starwars'><img class='image1' src={people} alt='Characters of Star Wars' /></Link>
                     </div>
                     <div className='center-pic col s4'>
-                    <Link exact='true' to='/starships'><img class='image2' src={starship} /></Link>   
+                    <Link exact='true' to='/starships'><img class='image2' src={starship} alt='Starships of Star Wars' /></Link>   
                     </div>
                     <div className='right-pic col s4'>
-                    <Link exact='true' to='/planets'><img class='image3' src={planet} /></Link>
+                    <Link exact='true' to='/planets'><img class='image3' src={planet} alt='Planets of Star Wars' /></Link>
                     </div>
                 </div>
             </div>

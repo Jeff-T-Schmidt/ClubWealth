@@ -39,7 +39,7 @@ const Starships = () => {
                 <div className='row'>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={xwing} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt='Starships of Star Wars: X-Wing' src={xwing} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">X-Wing<i class="material-icons right">more_vert</i></span>
@@ -50,8 +50,8 @@ const Starships = () => {
                                 <br></br>
                                 <li>Name: {name[6]}</li>
                                 <li>Passengers: {passengers[6]}</li>
-                                <li>Orbital period: {length[6]}</li>
-                                <li>Crew : {crew[6]}</li>
+                                <li>Length: {length[6]} units</li>
+                                <li>Crew: {crew[6]}</li>
                                 <li>Manufacturer: {manufacturer[6]}</li>
                                 <li>Cargo capacity: {cargo_capacity[6]} units</li>
                             </p>
@@ -59,7 +59,7 @@ const Starships = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={ywing} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }}  alt='Starships of Star Wars: Y-Wing' src={ywing} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Y-Wing<i class="material-icons right">more_vert</i></span>
@@ -70,8 +70,8 @@ const Starships = () => {
                                 <br></br>
                                 <li>Name: {name[5]}</li>
                                 <li>Passengers: {passengers[5]}</li>
-                                <li>Orbital period: {length[5]}</li>
-                                <li>Crew : {crew[5]}</li>
+                                <li>Length: {length[5]} units</li>
+                                <li>Crew: {crew[5]}</li>
                                 <li>Manufacturer: {manufacturer[5]}</li>
                                 <li>Cargo capacity: {cargo_capacity[5]} units</li>
                             </p>
@@ -79,7 +79,7 @@ const Starships = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={cr90} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }}  alt='Starships of Star Wars: CR-90' src={cr90} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">CR-90<i class="material-icons right">more_vert</i></span>
@@ -90,8 +90,8 @@ const Starships = () => {
                                 <br></br>
                                 <li>Name: {name[0]}</li>
                                 <li>Passengers: {passengers[0]}</li>
-                                <li>Orbital period: {length[0]}</li>
-                                <li>Crew : {crew[0]}</li>
+                                <li>Length: {length[0]} units</li>
+                                <li>Crew: {crew[0]}</li>
                                 <li>Manufacturer: {manufacturer[0]}</li>
                                 <li>Cargo capacity: {cargo_capacity[0]} units</li>
                             </p>
@@ -101,7 +101,7 @@ const Starships = () => {
                     <div className='row'>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '400px' }} src={millenium} />
+                                <img class="activator" style={{ height: '300px', width: '400px' }}  alt='Starships of Star Wars: Millenium Falcon' src={millenium} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Millenium Falcon<i class="material-icons right">more_vert</i></span>
@@ -112,8 +112,8 @@ const Starships = () => {
                                     <br></br>
                                     <li>Name: {name[4]}</li>
                                     <li>Passengers: {passengers[4]}</li>
-                                    <li>Orbital period: {length[4]}</li>
-                                    <li>Crew : {crew[4]}</li>
+                                    <li>Length: {length[4]} units</li>
+                                    <li>Crew: {crew[4]}</li>
                                     <li>Manufacturer: {manufacturer[4]}</li>
                                     <li>Cargo capacity: {cargo_capacity[4]} units</li>
                                 </p>
@@ -121,7 +121,7 @@ const Starships = () => {
                         </div>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '350px' }} src={executor} />
+                                <img class="activator" style={{ height: '300px', width: '350px' }}  alt='Starships of Star Wars: Executor' src={executor} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Executor<i class="material-icons right">more_vert</i></span>
@@ -132,8 +132,8 @@ const Starships = () => {
                                     <br></br>
                                     <li>Name: {name[8]}</li>
                                     <li>Passengers: {passengers[8]}</li>
-                                    <li>Orbital period: {length[8]}</li>
-                                    <li>Crew : {crew[8]}</li>
+                                    <li>Length: {length[8]} units</li>
+                                    <li>Crew: {crew[8]}</li>
                                     <li>Manufacturer: {manufacturer[8]}</li>
                                     <li>Cargo capacity: {cargo_capacity[8]} units</li>
                                 </p>
@@ -141,7 +141,7 @@ const Starships = () => {
                         </div>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '350px' }} src={stardestroyer} />
+                                <img class="activator" style={{ height: '300px', width: '350px' }}  alt='Starships of Star Wars: Star Destroyer' src={stardestroyer} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Star Destroyer<i class="material-icons right">more_vert</i></span>
@@ -152,8 +152,8 @@ const Starships = () => {
                                     <br></br>
                                     <li>Name: {name[1]}</li>
                                     <li>Passengers: {passengers[1]}</li>
-                                    <li>Orbital period: {length[1]}</li>
-                                    <li>Crew : {crew[1]}</li>
+                                    <li>Length: {length[1]} units</li>
+                                    <li>Crew: {crew[1]}</li>
                                     <li>Manufacturer: {manufacturer[1]}</li>
                                     <li>Cargo capacity: {cargo_capacity[1]} units</li>
                                 </p>

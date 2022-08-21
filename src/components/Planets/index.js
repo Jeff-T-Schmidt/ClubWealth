@@ -41,7 +41,7 @@ const Planets = () => {
                 <div className='row'>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={tatooine} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt="Planet of Star Wars: Tatooine" src={tatooine} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Tatooine<i class="material-icons right">more_vert</i></span>
@@ -61,7 +61,7 @@ const Planets = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={hoth} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt="Planet of Star Wars: Hoth" src={hoth} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Hoth<i class="material-icons right">more_vert</i></span>
@@ -81,7 +81,7 @@ const Planets = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={endor} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt="Planet of Star Wars: Endor" src={endor} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Endor<i class="material-icons right">more_vert</i></span>
@@ -103,7 +103,7 @@ const Planets = () => {
                     <div className='row'>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '450px' }} src={naboo} />
+                                <img class="activator" style={{ height: '300px', width: '450px' }} alt="Planet of Star Wars: Naboo"src={naboo} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Naboo<i class="material-icons right">more_vert</i></span>
@@ -123,7 +123,7 @@ const Planets = () => {
                         </div>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '350px' }} src={dagobah} />
+                                <img class="activator" style={{ height: '300px', width: '350px' }} alt="Planet of Star Wars: Dagobah" src={dagobah} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Dagobah<i class="material-icons right">more_vert</i></span>
@@ -143,7 +143,7 @@ const Planets = () => {
                         </div>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '350px' }} src={alderaan} />
+                                <img class="activator" style={{ height: '300px', width: '350px' }} alt="Planet of Star Wars: Alderaan" src={alderaan} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Alderaan<i class="material-icons right">more_vert</i></span>

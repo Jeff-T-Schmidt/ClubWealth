@@ -22,8 +22,8 @@ const StarWars = () => {
                 eye_color: obj.eye_color,
                 hair_color: obj.hair_color
             }))
-            console.log("response", response);
-            setData(info);
+
+            setData(response);
         });
 
     }, []);
@@ -41,7 +41,7 @@ const StarWars = () => {
                 <div className='row'>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={luke} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt='Character of Star Wars: Luke Skywalker' src={luke} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Luke Skywalker<i class="material-icons right">more_vert</i></span>
@@ -61,7 +61,7 @@ const StarWars = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '500px' }} src={obi} />
+                            <img class="activator" style={{ height: '300px', width: '500px' }} alt='Character of Star Wars: Obi-wan Kenobi' src={obi} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Obi-wan Kenobi<i class="material-icons right">more_vert</i></span>
@@ -81,7 +81,7 @@ const StarWars = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={leia} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt='Character of Star Wars: Leia Skywalker' src={leia} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Leia Skywalker<i class="material-icons right">more_vert</i></span>
@@ -103,7 +103,7 @@ const StarWars = () => {
                     <div className='row'>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '500px' }} src={darth} />
+                            <img class="activator" style={{ height: '300px', width: '500px' }} alt='Character of Star Wars: Darth Vader' src={darth} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Darth Vader<i class="material-icons right">more_vert</i></span>
@@ -123,13 +123,13 @@ const StarWars = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={c3po} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt='Character of Star Wars: C-3PO' src={c3po} />
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">C3PO<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator grey-text text-darken-4">C-3PO<i class="material-icons right">more_vert</i></span>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">C3PO<i class="material-icons right">close</i></span>
+                            <span class="card-title grey-text text-darken-4">C-3PO<i class="material-icons right">close</i></span>
                             <p>STAT SHEET
                                 <br></br>
                                 <li>Name: {name[1]}</li>
@@ -143,7 +143,7 @@ const StarWars = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={r2d2} />
+                            <img class="activator" style={{ height: '300px', width: '350px' }} alt='Character of Star Wars: R2-D2' src={r2d2} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">R2-D2<i class="material-icons right">more_vert</i></span>
