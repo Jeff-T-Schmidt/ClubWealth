@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "/home",
+  "homepage": ".",
+  "proxy": "http://localhost:3000",
   "main": "src/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",

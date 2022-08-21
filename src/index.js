@@ -5,7 +5,7 @@ import MainFunctional from "./components/mainFunctional";
 import App from './App'
 
 ReactDOM.render(
-
+  
     <BrowserRouter>
       <App />
     </BrowserRouter>
