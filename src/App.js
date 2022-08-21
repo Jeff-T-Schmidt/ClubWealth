@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Home from './components/Home';
-import Cats from './components/Cats';
+import Starships from './components/Starships';
 import StarWars from './components/StarWars';
-import Covid from './components/Covid';
+import Planets from './components/Planets';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                     <Route path="/starwars" element={<StarWars />} />
-                    <Route path="/cats" element={<Cats />} />
-                    <Route path="/covid" element={<Covid />} />       
+                    <Route path="/starships" element={<Starships />} />
+                    <Route path="/planets" element={<Planets />} />       
             </Routes>
         </>
     )

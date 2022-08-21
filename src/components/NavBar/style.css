@@ -19,11 +19,18 @@ body {
 
 button {
     /* color: inherit; */
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 15px;
     border: none;
     text-align: center;
     width: 150px;
-    height: 40px;
+    height: 50px;
     font-size: large;
+}
+
+button:focus {
+    background-color: #777 !important;
 }
 
 .nav-bar ul {
@@ -38,11 +45,11 @@ button {
     background-color: #555;
 }
 
-.cat-btn {
+.starships-btn {
     background-color: #555;
 }
 
-.covid-btn {
+.planets-btn {
     background-color: #555;
 }
 

@@ -13,27 +13,27 @@ const NavBar = () => {
                             <div >
                                 <button className='starWars-btn active'>
                                     <FontAwesomeIcon icon={faJedi} color="#4d4d4e" />
-                                    Star Wars
+                                    People of Star Wars
                                 </button>
                             </div>
                         </Link>
                     </li>
                     <li className='active'>
-                        <Link exact='true' className='cat-link' to='/cats'>
+                        <Link exact='true' className='starships-link' to='/starships'>
                             <div >
-                                <button className='cat-btn active'>
+                                <button className='starships-btn active'>
                                     <FontAwesomeIcon icon={faCat} color="#4d4d4e" />
-                                    Cats
+                                    Starships of Star Wars
                                 </button>
                             </div>
                         </Link>
                     </li>
                     <li className='active'>
-                        <Link exact='true' className='covid-link' to='/covid'>
+                        <Link exact='true' className='planets-link' to='/planets'>
                             <div >
-                                <button className='covid-btn active'>
+                                <button className='planets-btn active'>
                                     <FontAwesomeIcon icon={faBiohazard} color="#4d4d4e" />
-                                    Covid
+                                    Planets of Star Wars
                                 </button>
                             </div>
                         </Link>

@@ -1,44 +1,13 @@
 import './style.css'
-import luke from '../../assets/Luke.jpg'
-import c3po from '../../assets/c3po.png'
-import obi from '../../assets/Obi.jpg'
-import darth from '../../assets/Darth.jpg'
-import leia from '../../assets/Leia.jpg'
-import r2d2 from '../../assets/R2-D2.jpg'
+import luke from '../../assets/people/Luke.jpg'
+import c3po from '../../assets/people/c3po.png'
+import obi from '../../assets/people/Obi.jpg'
+import darth from '../../assets/people/Darth.jpg'
+import leia from '../../assets/people/Leia.jpg'
+import r2d2 from '../../assets/people/R2-D2.jpg'
 
 import starwars from "../../APIs/starwars";
 import React, { useState, useEffect } from "react";
-
-
-
-
-// const getLuke = (e) => {
-//     e.preventDefault()
-//     starwars.getPeople()
-//         .then(response => {
-//             const info = response.map(obj => ({
-//                 name: obj.name,
-//                 height: obj.height,
-//                 gender: obj.gender
-//             }))
-//             console.log(info[0])
-//         })
-// }
-
-// const getC3po = (e) => {
-//     e.preventDefault()
-//     starwars.getPeople()
-//         .then(response => {
-//             const info = response.map(obj => ({
-//                 name: obj.name,
-//                 height: obj.height,
-//                 gender: obj.gender
-//             }))
-//             console.log(info[1])
-//             // .then(info[1].toString())
-//         })
-// }
-
 
 
 const StarWars = () => {
