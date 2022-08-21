@@ -22,7 +22,7 @@ const Planets = () => {
                 rotation_period: obj.rotation_period,
                 terrain: obj.terrain
             }))
-            console.log("response", response);
+            
             setData(response);
         });
 
