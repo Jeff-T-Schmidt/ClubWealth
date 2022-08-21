@@ -1,18 +1,21 @@
 import './style.css'
 import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJedi, faCat, faBiohazard } from '@fortawesome/free-solid-svg-icons'
 
 const NavBar = () => {
     return (
         <>
             <nav className='nav-bar'>
+                <div className='site-title'>
+                    <Link exact='true' to='/'>
+                    <h2>Star Wars Fact Sheets</h2>
+                    </Link>
+                </div>
                 <ul>
                     <li className='active'>
                         <Link exact='true' to='/starwars'>
                             <div >
                                 <button className='starWars-btn active'>
-                                    <FontAwesomeIcon icon={faJedi} color="#4d4d4e" />
+
                                     People of Star Wars
                                 </button>
                             </div>
@@ -22,7 +25,7 @@ const NavBar = () => {
                         <Link exact='true' className='starships-link' to='/starships'>
                             <div >
                                 <button className='starships-btn active'>
-                                    <FontAwesomeIcon icon={faCat} color="#4d4d4e" />
+
                                     Starships of Star Wars
                                 </button>
                             </div>
@@ -32,7 +35,7 @@ const NavBar = () => {
                         <Link exact='true' className='planets-link' to='/planets'>
                             <div >
                                 <button className='planets-btn active'>
-                                    <FontAwesomeIcon icon={faBiohazard} color="#4d4d4e" />
+
                                     Planets of Star Wars
                                 </button>
                             </div>

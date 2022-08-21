@@ -1,3 +1,55 @@
-/* h1 {
-    color: aqua;
-} */
+.left-pic {}
+
+.center-pic {}
+
+.right-pic {}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    border: 5px black solid;
+    opacity: 0.8;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.image2 {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 5px black solid;
+    opacity: 0.8;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.image3 {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 5px black solid;
+    opacity: 0.8;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.image1:hover {
+    opacity: 1;
+}
+
+.image2:hover {
+    opacity: 1;
+}
+
+.image3:hover {
+    opacity: 1;
+}

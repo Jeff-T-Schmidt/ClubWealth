@@ -52,9 +52,9 @@ const Planets = () => {
                                 <br></br>
                                 <li>Name: {name[0]}</li>
                                 <li>Climate: {climate[0]}</li>
-                                <li>Orbital period: {orbital_period[0]}</li>
+                                <li>Orbital period: {orbital_period[0]} days</li>
                                 <li>Population : {population[0]}</li>
-                                <li>Ration period: {rotation_period[0]}</li>
+                                <li>Ration period: {rotation_period[0]} hours</li>
                                 <li>Terrain: {terrain[0]}</li>
                             </p>
                         </div>
@@ -72,9 +72,9 @@ const Planets = () => {
                                 <br></br>
                                 <li>Name: {name[3]}</li>
                                 <li>Climate: {climate[3]}</li>
-                                <li>Orbital period: {orbital_period[3]}</li>
+                                <li>Orbital period: {orbital_period[3]} days</li>
                                 <li>Population : {population[3]}</li>
-                                <li>Ration period: {rotation_period[3]}</li>
+                                <li>Ration period: {rotation_period[3]} hours</li>
                                 <li>Terrain: {terrain[3]}</li>
                             </p>
                         </div>
@@ -92,9 +92,9 @@ const Planets = () => {
                                 <br></br>
                                 <li>Name: {name[6]}</li>
                                 <li>Climate: {climate[6]}</li>
-                                <li>Orbital period: {orbital_period[6]}</li>
+                                <li>Orbital period: {orbital_period[6]} days</li>
                                 <li>Population : {population[6]}</li>
-                                <li>Ration period: {rotation_period[6]}</li>
+                                <li>Ration period: {rotation_period[6]} hours</li>
                                 <li>Terrain: {terrain[6]}</li>
                             </p>
                         </div>
@@ -103,7 +103,7 @@ const Planets = () => {
                     <div className='row'>
                         <div class="card col s4">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style={{ height: '300px', width: '400px' }} src={naboo} />
+                                <img class="activator" style={{ height: '300px', width: '450px' }} src={naboo} />
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Naboo<i class="material-icons right">more_vert</i></span>
@@ -114,9 +114,9 @@ const Planets = () => {
                                     <br></br>
                                     <li>Name: {name[7]}</li>
                                     <li>Climate: {climate[7]}</li>
-                                    <li>Orbital period: {orbital_period[7]}</li>
+                                    <li>Orbital period: {orbital_period[7]} days</li>
                                     <li>Population : {population[7]}</li>
-                                    <li>Ration period: {rotation_period[7]}</li>
+                                    <li>Ration period: {rotation_period[7]} hours</li>
                                     <li>Terrain: {terrain[7]}</li>
                                 </p>
                             </div>
@@ -134,9 +134,9 @@ const Planets = () => {
                                     <br></br>
                                     <li>Name: {name[4]}</li>
                                     <li>Climate: {climate[4]}</li>
-                                    <li>Orbital period: {orbital_period[4]}</li>
+                                    <li>Orbital period: {orbital_period[4]} days</li>
                                     <li>Population : {population[4]}</li>
-                                    <li>Ration period: {rotation_period[4]}</li>
+                                    <li>Ration period: {rotation_period[4]} hours</li>
                                     <li>Terrain: {terrain[4]}</li>
                                 </p>
                             </div>
@@ -154,9 +154,9 @@ const Planets = () => {
                                     <br></br>
                                     <li>Name: {name[1]}</li>
                                     <li>Climate: {climate[1]}</li>
-                                    <li>Orbital period: {orbital_period[1]}</li>
+                                    <li>Orbital period: {orbital_period[1]} days</li>
                                     <li>Population : {population[1]} (Really should be zero!)</li>
-                                    <li>Ration period: {rotation_period[1]}</li>
+                                    <li>Ration period: {rotation_period[1]} hours</li>
                                     <li>Terrain: {terrain[1]}</li>
                                 </p>
                             </div>

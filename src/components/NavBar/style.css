@@ -43,16 +43,25 @@ button:focus {
 
 .starWars-btn {
     background-color: #555;
+    color: #fff;
 }
 
 .starships-btn {
     background-color: #555;
+    color: #fff;
 }
 
 .planets-btn {
     background-color: #555;
+    color: #fff;
 }
 
  .nav-bar button:hover {
     background-color: #777;
 } 
+.site-title {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+}

@@ -53,7 +53,7 @@ const Starships = () => {
                                 <li>Orbital period: {length[6]}</li>
                                 <li>Crew : {crew[6]}</li>
                                 <li>Manufacturer: {manufacturer[6]}</li>
-                                <li>Cargo capacity: {cargo_capacity[6]}</li>
+                                <li>Cargo capacity: {cargo_capacity[6]} units</li>
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const Starships = () => {
                                 <li>Orbital period: {length[5]}</li>
                                 <li>Crew : {crew[5]}</li>
                                 <li>Manufacturer: {manufacturer[5]}</li>
-                                <li>Cargo capacity: {cargo_capacity[5]}</li>
+                                <li>Cargo capacity: {cargo_capacity[5]} units</li>
                             </p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const Starships = () => {
                                 <li>Orbital period: {length[0]}</li>
                                 <li>Crew : {crew[0]}</li>
                                 <li>Manufacturer: {manufacturer[0]}</li>
-                                <li>Cargo capacity: {cargo_capacity[0]}</li>
+                                <li>Cargo capacity: {cargo_capacity[0]} units</li>
                             </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ const Starships = () => {
                                     <li>Orbital period: {length[4]}</li>
                                     <li>Crew : {crew[4]}</li>
                                     <li>Manufacturer: {manufacturer[4]}</li>
-                                    <li>Cargo capacity: {cargo_capacity[4]}</li>
+                                    <li>Cargo capacity: {cargo_capacity[4]} units</li>
                                 </p>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ const Starships = () => {
                                     <li>Orbital period: {length[8]}</li>
                                     <li>Crew : {crew[8]}</li>
                                     <li>Manufacturer: {manufacturer[8]}</li>
-                                    <li>Cargo capacity: {cargo_capacity[8]}</li>
+                                    <li>Cargo capacity: {cargo_capacity[8]} units</li>
                                 </p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ const Starships = () => {
                                     <li>Orbital period: {length[1]}</li>
                                     <li>Crew : {crew[1]}</li>
                                     <li>Manufacturer: {manufacturer[1]}</li>
-                                    <li>Cargo capacity: {cargo_capacity[1]}</li>
+                                    <li>Cargo capacity: {cargo_capacity[1]} units</li>
                                 </p>
                             </div>
                         </div>

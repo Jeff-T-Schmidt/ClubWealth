@@ -61,7 +61,7 @@ const StarWars = () => {
                     </div>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={obi} />
+                            <img class="activator" style={{ height: '300px', width: '500px' }} src={obi} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Obi-wan Kenobi<i class="material-icons right">more_vert</i></span>
@@ -103,7 +103,7 @@ const StarWars = () => {
                     <div className='row'>
                     <div class="card col s4">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" style={{ height: '300px', width: '350px' }} src={darth} />
+                            <img class="activator" style={{ height: '300px', width: '500px' }} src={darth} />
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Darth Vader<i class="material-icons right">more_vert</i></span>
