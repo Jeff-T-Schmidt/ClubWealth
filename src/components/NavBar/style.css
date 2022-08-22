@@ -75,7 +75,7 @@ button:focus {
 @media (max-width: 940px){
     h2 {
        position: absolute;
-       left: 10px;
+       left: -30px;
        font-size: 20px;
        top: -10px;
     }
