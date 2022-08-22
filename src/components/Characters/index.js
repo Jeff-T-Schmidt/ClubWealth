@@ -10,7 +10,7 @@ import starwars from "../../APIs/starwars";
 import React, { useState, useEffect } from "react";
 
 
-const StarWars = () => {
+const Characters = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
         starwars.getPeople().then((response) => {
@@ -169,4 +169,4 @@ const StarWars = () => {
     );
 }
 
-export default StarWars
+export default Characters
